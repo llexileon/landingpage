@@ -17,7 +17,8 @@ html,body {
 		}
 
 header {
-	        background: transparent;  
+	        background: transparent;
+	        width: 100%;  
 	    }
 
 		.header {
@@ -26,18 +27,28 @@ header {
    		    font-family: 'minecraftiaregular';
    		    display: inline-block;
             vertical-align: middle;
-            padding-bottom: 20px;
-            font-size: x-large;
+            padding-bottom: 30px;
+            padding-left: 20px;
+            font-size: xx-large;
             background: transparent;  
 		}
 		
+		.email {
+  			display: inline-block;
+  		    vertical-align: middle;
+  		    margin-right: 10px;
+  			padding-left: 50px;
+            padding-bottom: 30px;
+			vertical-align: middle;
+			width: 50px;
+		}
 
 
-		.rob img {
-  			height: 70px;
+		.rob {
+  			height: 80px;
   			margin-right: 10px;
   			padding-left: 20px;
-  			padding-top: 10px;
+  			padding-top: 20px;
 
 		}
 
