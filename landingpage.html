@@ -10,7 +10,7 @@
 <body>
 <div class="headContainer"/>
 	<header>
-        <img class="rob" src="robpixel.png"/>
+        <img class="play" src="robpixel.png"/>
         <span class= "header">Robert Alexander Leon</span>
         <img class="email" src="email.png"/>
         <span class= "contact">email</span>
@@ -24,5 +24,25 @@
 	        <div class="clouds_four"></div>
 	    </div>
 	</div>    
+
+ 	<script src='https://code.jquery.com/jquery-2.0.3.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore.js'></script>
+    <script src='mustache.js'></script>
+
+<script>
+	$(document).ready(function(){
+	      var audioElement = document.createElement('audio');
+	        audioElement.setAttribute('src', './wellletsjam.mp3');
+	        $.get();
+	        audioElement.addEventListener("load", function() {
+	        audioElement.play();
+	        }, true);
+
+	        $('.play').click(function() {
+	        audioElement.play();
+	        });
+	});        
+</script>
+
 </body>
 </html>
