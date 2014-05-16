@@ -23,13 +23,13 @@ html,body {
 			background:url("cloudalpha.png");
 			background-repeat:no-repeat;
 			position:absolute;
-			left:0%;
-			top:70%;
+			left:45%;
+			top:65%;
 			height:100%;
-			width:300%;
-			-webkit-animation:cloud_one 40s linear infinite;
-			-moz-animation:cloud_one 40s linear infinite;
-			-o-animation:cloud_one 40s linear infinite;
+			width:100%;
+			-webkit-animation:cloud_one 85s linear infinite;
+			-moz-animation:cloud_one 85s linear infinite;
+			-o-animation:cloud_one 85s linear infinite;
 			-webkit-transform:translate3d(0,0,0);
 			-moz-transform:translate3d(0,0,0);
 			-o-transform:translate3d(0,0,0)
@@ -42,10 +42,10 @@ html,body {
 			left:0%;
 			top:30%;
 			height:100%;
-			width:300%;
-			-webkit-animation:cloud_two 75s linear infinite;
-			-moz-animation:cloud_two 75s linear infinite;
-			-o-animation:cloud_two 75s linear infinite;
+			width:100%;
+			-webkit-animation:cloud_two 55s linear infinite;
+			-moz-animation:cloud_two 55s linear infinite;
+			-o-animation:cloud_two 55s linear infinite;
 			-webkit-transform:translate3d(0,0,0);
 			-moz-transform:translate3d(0,0,0);
 			-o-transform:translate3d(0,0,0)
@@ -58,10 +58,10 @@ html,body {
 			left:20%;
 			top:1%;
 			height:100%;
-			width:300%;
-			-webkit-animation:cloud_three 100s linear infinite;
-			-moz-animation:cloud_three 100s linear infinite;
-			-o-animation:cloud_three 100s linear infinite;
+			width:100%;
+			-webkit-animation:cloud_three 25s linear infinite;
+			-moz-animation:cloud_three 25s linear infinite;
+			-o-animation:cloud_three 25s linear infinite;
 			-webkit-transform:translate3d(0,0,0);
 			-moz-transform:translate3d(0,0,0);
 			-o-transform:translate3d(0,0,0)
@@ -74,10 +74,10 @@ html,body {
 			left:65%;
 			top: 45%;
 			height:100%;
-			width:300%;
-			-webkit-animation:clouds_four 55s linear infinite;
-			-moz-animation:clouds_four 55s linear infinite;
-			-o-animation:clouds_four 55s linear infinite;
+			width:100%;
+			-webkit-animation:clouds_four 75s linear infinite;
+			-moz-animation:clouds_four 75s linear infinite;
+			-o-animation:clouds_four 75s linear infinite;
 			-webkit-transform:translate3d(0,0,0);
 			-moz-transform:translate3d(0,0,0);
 			-o-transform:translate3d(0,0,0)
