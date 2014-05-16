@@ -9,12 +9,16 @@
     font-style: normal;
 }
 
-
 html,body {
 			margin:0;
 			height:100%;
 			width: 100%;
 		}
+
+.headContainer {
+	margin: auto;
+	width: 800px;
+}
 
 header {
 	        background: transparent;
@@ -33,6 +37,17 @@ header {
             background: transparent;  
 		}
 		
+		.contact {
+			font-size: large;
+			margin: 0px;
+   		    font-family: 'minecraftiaregular';
+   		    display: inline-block;
+            vertical-align: middle;
+            padding-bottom: 35px;
+            padding-left: 0px;
+            background: transparent; 
+		}	
+
 		.email {
   			display: inline-block;
   		    vertical-align: middle;
