@@ -17,7 +17,7 @@ html,body {
 
 .headContainer {
 	margin: auto;
-	width: 900px;
+	width: 800px;
 }
 
 header {
@@ -33,22 +33,29 @@ header {
             vertical-align: middle;
             padding-left: 20px;
             font-size: xx-large;
-            background: transparent;  
+            background: transparent;
 		}
 		
+		.nav {
+			display: inline-block;
+            vertical-align: middle;
+            float: right;
+            padding-top: 20px
+		}
+
+
 		.twitter {
 			width: 50px;
   			display: inline-block;
   		    vertical-align: middle;
   		    margin-top: 8px;
-  			padding-left: 20px;
 		}
 
 		.email {
   			display: inline-block;
   			margin-top: 9px;
   		    vertical-align: middle;
-  			padding-left: 10px;
+  			padding-left: 11px;
 			width: 50px;
 		}
 
@@ -64,11 +71,10 @@ header {
 		.rob {
   			height: 80px;
   			margin-right: 10px;
-  			padding-left: 30px;
+  			padding-left: 0px;
   			padding-top: 10px;
   			padding-bottom: 20px;
   			vertical-align: middle;
-
 		}
 
 		.bgContainer {
