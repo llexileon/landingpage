@@ -15,14 +15,12 @@ html,body {
 			width: 100%;
 		}
 
-.headContainer {
-	margin: auto;
-	width: 800px;
-}
-
 header {
 	        background: transparent;
-	        width: 100%;  
+	        margin: auto;
+			width: 100%;
+			min-width: 870px;
+
 	    }
 
 		.header {
@@ -31,7 +29,6 @@ header {
    		    font-family: 'minecraftiaregular';
    		    display: inline-block;
             vertical-align: middle;
-            padding-left: 20px;
             font-size: xx-large;
             background: transparent;
 		}
@@ -40,7 +37,8 @@ header {
 			display: inline-block;
             vertical-align: middle;
             float: right;
-            padding-top: 20px
+            padding-top: 20px;
+            margin-right: 5%;
 		}
 
 
@@ -70,7 +68,8 @@ header {
 
 		.rob {
   			height: 80px;
-  			margin-right: 10px;
+  			margin-right: 2.5%;
+  			margin-left: 5%;
   			padding-left: 0px;
   			padding-top: 10px;
   			padding-bottom: 20px;
@@ -221,7 +220,7 @@ header {
 			}
 		
 			100% {
-				left:-200%
+				left:-100%
 			}
 		}
 
