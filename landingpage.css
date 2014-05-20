@@ -18,26 +18,26 @@ html,body {
 header {
 	        background: transparent;
 			width: 100%;
-			min-width: 525px;
+			min-width: 500px;
 
 	    }
 
 		.header {
 			z-index: 1;
-			margin: 0px;
+			margin-left: 3%;
+		    margin-right: 1%;
    		    font-family: 'minecraftiaregular';
    		    display: inline-block;
             vertical-align: middle;
             font-size: xx-large;
             background: transparent;
-            line-height: 110px;
+            line-height: 100px;
 
 		}
         
         .icon {
         	display: inline-block;
             vertical-align: middle;
-            margin-right: 2.5%;
   			margin-left: 5%;
   			padding-left: 0px;
   			padding-top: 10px;
@@ -124,9 +124,9 @@ header {
 			top:65%;
 			height:100%;
 			width:100%;
-			-webkit-animation:cloud_one 85s linear infinite;
-			-moz-animation:cloud_one 85s linear infinite;
-			-o-animation:cloud_one 85s linear infinite;
+			-webkit-animation:cloud_one 30s linear infinite;
+			-moz-animation:cloud_one 30s linear infinite;
+			-o-animation:cloud_one 30s linear infinite;
 			-webkit-transform:translate3d(0,0,0);
 			-moz-transform:translate3d(0,0,0);
 			-o-transform:translate3d(0,0,0)
@@ -140,9 +140,9 @@ header {
 			top:30%;
 			height:100%;
 			width:100%;
-			-webkit-animation:cloud_two 55s linear infinite;
-			-moz-animation:cloud_two 55s linear infinite;
-			-o-animation:cloud_two 55s linear infinite;
+			-webkit-animation:cloud_two 35s linear infinite;
+			-moz-animation:cloud_two 35s linear infinite;
+			-o-animation:cloud_two 35s linear infinite;
 			-webkit-transform:translate3d(0,0,0);
 			-moz-transform:translate3d(0,0,0);
 			-o-transform:translate3d(0,0,0)
@@ -172,9 +172,9 @@ header {
 			top: 45%;
 			height:100%;
 			width:100%;
-			-webkit-animation:clouds_four 75s linear infinite;
-			-moz-animation:clouds_four 75s linear infinite;
-			-o-animation:clouds_four 75s linear infinite;
+			-webkit-animation:clouds_four 20s linear infinite;
+			-moz-animation:clouds_four 20s linear infinite;
+			-o-animation:clouds_four 20s linear infinite;
 			-webkit-transform:translate3d(0,0,0);
 			-moz-transform:translate3d(0,0,0);
 			-o-transform:translate3d(0,0,0)
@@ -182,51 +182,51 @@ header {
 		
 		@-webkit-keyframes cloud_one {
 			0% {
-				left:80%
+				left:120%
 			}
 		
 			100% {
-				left:-100%
+				left:-30%
 			}
 		}
 		
 		@-webkit-keyframes cloud_two {
 			0% {
-				left:0
+				left:120%
 			}
 		
 			100% {
-				left:-150%
+				left:-30%
 			}
 		}
 		
 		@-webkit-keyframes cloud_three {
 			0% {
-				left:50%
+				left:100%
 			}
 		
 			100% {
-				left:-100%
+				left:-30%
 			}
 		}
 		
 		@-webkit-keyframes clouds_four {
 			0% {
-				left:50%
+				left:120%
 			}
 		
 			100% {
-				left:-150%
+				left:-30%
 			}
 		}
 		
 		@-moz-keyframes cloud_one {
 			0% {
-				left:0
+				left:100
 			}
 		
 			100% {
-				left:-200%
+				left:-30%
 			}
 		}
 		
