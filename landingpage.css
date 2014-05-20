@@ -121,7 +121,7 @@ header {
 			background-repeat:no-repeat;
 			position:absolute;
 			left:45%;
-			top:65%;
+			top:62%;
 			height:100%;
 			width:100%;
 			-webkit-animation:cloud_one 30s linear infinite;
@@ -137,7 +137,7 @@ header {
 			background-repeat:no-repeat;
 			position:absolute;
 			left:0%;
-			top:30%;
+			top:20%;
 			height:100%;
 			width:100%;
 			-webkit-animation:cloud_two 35s linear infinite;
@@ -169,7 +169,7 @@ header {
 			background-repeat:no-repeat;
 			position:absolute;
 			left:65%;
-			top: 45%;
+			top: 40%;
 			height:100%;
 			width:100%;
 			-webkit-animation:clouds_four 20s linear infinite;
@@ -222,7 +222,7 @@ header {
 		
 		@-moz-keyframes cloud_one {
 			0% {
-				left:100
+				left:0
 			}
 		
 			100% {
@@ -236,7 +236,7 @@ header {
 			}
 		
 			100% {
-				left:-200%
+				left:-30%
 			}
 		}
 		
@@ -246,7 +246,7 @@ header {
 			}
 		
 			100% {
-				left:-100%
+				left:-30%
 			}
 		}
 
@@ -256,6 +256,6 @@ header {
 			}
 		
 			100% {
-				left:-200%
+				left:-30%
 			}
 		}
