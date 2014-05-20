@@ -1,4 +1,4 @@
-@font-face {
+	@font-face {
     font-family: 'minecraftiaregular';
     src: url('./fonts/minecraftia-webfont.eot');
     src: url('./fonts/minecraftia-webfont.eot?#iefix') format('embedded-opentype'),
@@ -17,9 +17,8 @@ html,body {
 
 header {
 	        background: transparent;
-	        margin: auto;
 			width: 100%;
-			min-width: 870px;
+			min-width: 525px;
 
 	    }
 
@@ -31,14 +30,41 @@ header {
             vertical-align: middle;
             font-size: xx-large;
             background: transparent;
+            line-height: 110px;
+
+		}
+        
+        .icon {
+        	display: inline-block;
+            vertical-align: middle;
+            margin-right: 2.5%;
+  			margin-left: 5%;
+  			padding-left: 0px;
+  			padding-top: 10px;
+        }
+
+
+		@media(max-width: 860px) {
+			.header {
+				font-size: 3.5vw;
+				line-height: 120px;
+
+			}
+			.nav img {
+				width: 6vw;
+			}
+			.rob{
+				width: 8vw;
+			}
 		}
 		
 		.nav {
 			display: inline-block;
             vertical-align: middle;
             float: right;
-            padding-top: 20px;
-            margin-right: 5%;
+            height: 120px;
+            line-height: 110px;
+            margin-right: 4%;
 		}
 
 
@@ -46,7 +72,7 @@ header {
 			width: 50px;
   			display: inline-block;
   		    vertical-align: middle;
-  		    margin-top: 8px;
+  		    margin-top: 9px;
 		}
 
 		.email {
@@ -67,13 +93,12 @@ header {
 		}
 
 		.rob {
-  			height: 80px;
-  			margin-right: 2.5%;
-  			margin-left: 5%;
+			max-height: 80px;
+  			margin-left: 4%;
   			padding-left: 0px;
   			padding-top: 10px;
   			padding-bottom: 20px;
-  			vertical-align: middle;
+
 		}
 
 		.bgContainer {
@@ -87,7 +112,8 @@ header {
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
 			height: 100%;
 			position: relative;
-
+			min-width: 750px;
+			overflow: hidden;
 		}
 		
 		.clouds_one {
